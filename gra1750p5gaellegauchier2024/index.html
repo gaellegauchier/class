@@ -2,23 +2,141 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Olive Garden | Gaelle Gauchier</title>
-	<style>
-		body{
-			margin: 0;
-			background-color: aquamarine;	
-		}
-		wrapper{
-			width:850px;
-			display:block;
-			margin: auto;
-			background-color: beige;
-			height: 100vh;
-		}
-	</style>
+<title>GG's Cuisine | Gaelle Gauchier</title>
+<link rel="stylesheet" href="https://use.typekit.net/hkg8sqw.css">
+<style>
+body {
+    margin: 0;
+    background-image: linear-gradient(180deg, purple, lightblue);
+}
+wrapper {
+    width: 850px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .5);
+}
+.logo {
+    display: block;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin: auto;
+}
+.menu:hover {
+    background-color: lavender;
+    color: purple;
+    font-family: "Dalliance OT";
+    font-size: 30px;
+}
+.menu {
+    background-color: purple;
+    color: black;
+    padding: 2px 10px;
+    font-family: "Dalliance OT";
+    font-size: 20px;
+    text-shadow: 2px 2px 5px lightblue;
+    margin-left: 40px;
+    vertical-align: top;
+}
+.loc:hover {
+    background-color: lavender;
+    color: purple;
+    font-family: "Dalliance OT";
+    font-size: 30px;
+}
+.loc {
+    background-color: purple;
+    color: black;
+    padding: 2px 10px;
+    font-family: "Dalliance OT";
+    font-size: 20px;
+    text-shadow: 2px 2px 5px lightblue;
+    margin-right: 180px;
+    vertical-align: top;
+}
+.video {
+    display: block;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin: auto;
+    height: 354px;
+    border: double 10px purple;
+    border-radius: 20px;
+}
+.pic {
+    width: 280px;
+    height: 220px;
+    margin-top: 30px;
+    display: inline-block;
+}
+nav {
+    height: 60px;
+    background-color: transparent;
+}
+span {
+    border-right: 2px solid purple;
+    padding: 0px 20px;
+}
+ul {
+    padding: 0;
+    color: black;
+    text-shadow: 2px 2px 5px lavender;
+}
+li:hover {
+    background-color: lavender;
+    color: black;
+    font-size: 30px;
+}
+li {
+    display: inline;
+    vertical-align: middle;
+    margin: auto;
+    font-family: "Dalliance OT";
+    font-size: 20px;
+    background-color: purple;
+}
+p {
+    font-family: "Dalliance OT";
+    font-size: 20px;
+}
+h1 {
+    font-family: "Dalliance OT";
+    font-size: 60px;
+    color: lavender;
+    text-align: center;
+    text-shadow: 2px 2px 10px lightblue;
+    text-shadow: 2px 2px 15px lightblue;
+    text-shadow: 2px 2px 20px lightblue;
+}
+</style>
 </head>
 
 <body>
-	<wrapper>A</wrapper>
+<wrapper>
+  <header> <img src="logo.png" class="logo">
+    <h1>Welcome to GG's Cuisine </h1>
+    <ul>
+      <button class="menu"> Menu </button>
+      <button class="loc">Location</button>
+    </ul>
+  </header>
+  <main>
+    <video src="shrimppasta.mp4" muted loop autoplay class="video"></video>
+    <section> <img src="lasagna.jpeg" class="pic"> <img src="drinks.jpg" class="pic"> <img src="pennepasta.jpeg" class="pic"></section>
+    <nav>
+      <ul>
+        <li> <span>Order Now</span></li>
+        <li><span>Reservation</span></li>
+        <li> <span>Contact us</span></li>
+        <li> <span>Catering</span></li>
+        <li> <span>About us</span></li>
+        <li><span>Social media</span></li>
+      </ul>
+    </nav>
+  </main>
+  <footer>
+    <p>&copy; 2024, Gaelle Gauchier. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+</wrapper>
 </body>
 </html>
