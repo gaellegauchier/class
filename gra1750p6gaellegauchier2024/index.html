@@ -59,6 +59,7 @@ wrapper {
 
 ul {
     padding: 0;
+	margin: 0;
     color: black;
     text-shadow: 2px 2px 5px lavender;
 }
@@ -97,6 +98,44 @@ h1 {
 	text-decoration: underline;
 	text-decoration-color: purple;
 }
+	@media(min-width:1300px){
+		wrapper {
+    width: 1000px;
+    padding: 20px;
+    
+    margin: auto;
+    
+}
+		.pic {
+    width: 325px;
+    height: 325px;
+    margin-top: 30px;
+			margin: auto;
+    display: inline-block;
+			
+}
+		.ul1{
+			width: 49%;
+			display: inline-block;
+		}
+		.ul2{width: 49%;
+			display: inline-block;
+		}
+		.menu{
+			width:49%;
+			display: inline-block;
+			box-sizing: border-box;
+			
+		}
+		.loc{width: 49%;
+			display: inline-block;
+			box-sizing: border-box;
+			
+		}
+		
+			
+		
+	}
 </style>
 </head>
 
@@ -104,20 +143,23 @@ h1 {
 <wrapper>
   <header> <img src="logo.png" class="logo">
     <h1>Welcome to GG's Cuisine </h1>
-    <ul>
+    
       <button class="menu"> Menu </button>
       <button class="loc">Location</button>
-    </ul>
+    
   </header>
   <main>
     <video src="shrimppasta.mp4" muted loop autoplay controls class="video"></video>
     <section> <img src="lasagna.jpeg" class="pic"> <img src="drinks.jpg" class="pic"> <img src="pennepasta.jpeg" class="pic"></section>
     <nav>
-      <ul>
-        <li>Order Now</li>
+      <ul class="ul1"> 
+        <li>Order Now </li>
         <li>Reservation</li>
-		   <li>Catering</li>
-        <li>Contact us</li>
+		  <li>Catering</li>
+		
+		</ul>
+       <ul class="ul2"> 
+		   <li>Contact us</li>
                <li> About us</li>
         <li>Social media</li>
       </ul>
