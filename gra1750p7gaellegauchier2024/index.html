@@ -2,108 +2,186 @@
 <html>
 <head>
 <meta charset="utf-8">
-	
 <title>Untitled Document</title>
-
 </head>
 
 <style>
+@font-face {
+    font-family: 'supernatural_knightregular';
+    src: url('supernatural_knight-webfont.woff2') format('woff2'), url('supernatural_knight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
     padding: 0;
-    background-image: url("backgound.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
-background-attachment:scroll background-repeat: no-repeat;
-bac
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 }
-header {
+header h1 {
+    font-family: 'supernatural_knightregular';
     margin-top: 60px;
     padding: 10px;
     text-align: center;
+    font-size: 75px;
+    background-clip: text;
+    color: black;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
 }
-header:hover {
-	background-clip: inherit;
-	color: transparent;
-    margin-top: 60px;
-    margin: 0;
-    padding: 10px;
-   
-    background-image: url("logo fire.png");
+header:hover h1 {
+    background-image: url("fire-1391676_1280.jpg");
+    text-shadow: none;
+    color: transparent;
     background-repeat: no-repeat;
     background-position: center;
 }
 wrapper {
+    display: block;
     margin: auto;
-    width: 1024px;
+    width: 2000px;
     background-color: 255, 255, 255, 0.5;
 }
 ul {
-    padding: 0;
+    padding: 10px 0px;
     margin: 0;
     text-align: center;
 }
 li {
+    font-family: 'supernatural_knightregular';
     color: antiquewhite;
     display: inline-block;
     padding: 8px;
-    font-size: 30px;
-    text-shadow: 2px 2px 5px black;
+    font-size: 55px;
+    text-shadow: 0 0 20px red, 0 0 20px black, 0 0 20px white;
+}
+li:hover {
+    color: black;
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
 }
 nav {
+    background-color: black;
+}
+nav:hover {
     background-color: transparent;
 }
-section {
-    width: 49px;
-    height: auto;
-    padding-bottom: 20px;
-    margin-left: 10px;
+img {
+    float: right;
+    margin-top: 35px;
 }
-.p1, section {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
-    text-shadow: 2px 2px 5px black;
+.img1 {
+    border: double 10px black;
+    border-radius: 20px;
+}
+.img2 {
+    margin-right: 145px;
+    margin-top: 200px;
+}
+.img2:hover {
+    background-image: url("logoback.png");
+    background-repeat: no-repeat;
+	
+}
+.vid1 {
+    display: block;
+    vertical-align: middle;
+    margin: 40px 0px 20px;
+    box-shadow: 0 0 10px white, 0 0 20px white;
+}
+.vid2 {
+    display: block;
+    vertical-align: middle;
+    margin: 40px 0px 20px;
+    box-shadow: 0 0 10px white, 0 0 20px white;
+}
+.vid3 {
+    display: block;
+    vertical-align: middle;
+    margin: 40px 0px 20px;
+    box-shadow: 0 0 10px white, 0 0 20px white;
 }
 .p1 {
     color: antiquewhite;
-    font-size: 30px;
+    font-size: 55px;
+    text-shadow: 0 0 20px red, 0 0 20px white, 0 0 20px red;
+    font-family: "Dalliance OT";
+    margin: 40px 0px 20px;
+    background-color: black;
+    vertical-align: middle;
+    padding: 0 10px;
+    border: double 10px white;
+    border-radius: 20px;
 }
+	.sec{
+		
+	
+		display: inline-block;
+		margin-top: 40px;
+		
+	}
+	.vid4{
+		width: 550px;
+		box-shadow: 0 0 10px white, 0 0 20px white; 
+		margin: 0 20px 0 100px;
+	}
+	.vid5{
+		width: 550px;
+		box-shadow: 0 0 10px white, 0 0 20px white;
+		margin: 0 20px;
+	}
+	.vid6{
+		width: 550px;
+		box-shadow: 0 0 10px white, 0 0 20px white;
+		margin: 0 20px;
+	}
+	.p2{
+		 font-family: 'supernatural_knightregular';
+		color: antiquewhite;
+    font-size: 55px;
+    text-shadow: 0 0 20px red, 0 0 20px white, 0 0 20px red;
+		text-align: center;
+		font-size: 90px;
+		
+	}
 footer {
-    color: antiquewhite;
-    text-shadow: 2px 2px 5px black;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 35px;
+    padding-left: 40px;
 }
 </style>
-	
 
 <body>
-
 <wrapper>
   <header>
-     <image src="logo.png"> 
-	  </image>
+    <h1> SUPERNATURAL </h1>
   </header>
   <nav>
     <ul>
-      <li>Home</li>
-      <li>Characters</li>
-      <li>Behind the scenes</li>
-      <li>Trailer</li>
-      <li>Shop</li>
+      <li>Home -</li>
+      <li>Characters -</li>
+      <li>Behind the scenes -</li>
+      <li>Trailer -</li>
+      <li>Shop -</li>
       <li>Fan club</li>
     </ul>
   </nav>
-  <section>
-    <h1>
-      <video src="clip 1.mp4" autoplay controls></video>
-    </h1>
-    <h2>
-      <video src="clip 2.mp4" autoplay controls></video>
-    </h2>
-    <h3>
-      <video src="clip 3.mp4" autoplay controls></video>
-    </h3>
-  </section>
-  <p class="p1"> Sam and Dean Winchester, following in their father's foosteps are two brother who hunt evil supernatural beings like demons, monsters and gods. When their father goes missing, they us his journal to help them track John down, who himself is looking for the demon that killed his wife and Sam's girlfriend. </p>
+  <main> <img src="brothers.jpg" class="img1"> <img src="logo.png" class="img2">
+    <section>
+      <video src="clip 1.mp4" autoplay controls class="vid1"></video>
+      <video src="clip 2.mp4" autoplay controls class="vid2"></video>
+      <video src="clip 3.mp4" autoplay controls class="vid3"></video>
+    </section>
+    <p class="p1"> Sam and Dean Winchester, following in their father's foosteps are two brother who hunt evil supernatural beings like demons, monsters and gods. When their father goes missing, they us his journal to help them track John down, who himself is looking for the demon that killed his wife and Sam's girlfriend. </p>
+  </main>
+	<section class="sec">
+	<video src="clip 4.mp4" autoplay controls class="vid4"></video>
+		<video src="clip 5.mp4" autoplay controls class="vid5"></video>
+		<video src="clip 6.mp4" autoplay controls class="vid6"></video>
+	</section>
+	<p class="p2">
+		Carry on my wayward sons</p>
   <footer>
     <p>&copy; 2024, Gaelle Gauchier. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
   </footer>
